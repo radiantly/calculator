@@ -29,11 +29,21 @@ if choice == 1:
 
     print("The sum is", result)
 
-# Fill the rest of the functionality here!
-# 2. Subtraction
-# 3. Multiplication
-# 4. Division
-# 5. Exponentiation
+if choice == 2:
+    print("Enter the numbers you'd like to subtract: ")
+    print("The answer is", int(input()) - int(input()))
+
+if choice == 3:
+    print("Enter the numbers you'd like to multiply: ")
+    print("The product is", int(input()) * int(input()))
+
+if choice == 4:
+    print("Enter the numbers you'd like to divide: ")
+    print("The answer is", int(input()) / int(input()))
+
+if choice == 5:
+    print("Enter the base and power: ")
+    print(f"The answer is {int(input()) ** int(input())}")
 
 if choice == 6:
     print("Enter the angle in degrees: ")
@@ -42,10 +52,24 @@ if choice == 6:
 
     print("The sine value is", answer)
 
-# Fill the rest of the functionality here!
-# 7. Cosine
-# 8. Tangent
-# 9. Floor
-# 10. Ceiling
-# 11. Round
-# 12. Absolute value
+if choice == 7:
+    print(
+        f"The cosine value is {math.cos(math.radians(int(input('Enter the angle in degrees: '))))}"
+    )
+
+if choice == 8:
+    print(
+        f"The tangent value is {math.tan(math.radians(int(input('Enter the angle in degrees: '))))}"
+    )
+
+if choice == 9:
+    print(f"The answer is {math.floor(float(input('Enter a decimal: ')))}")
+
+if choice == 10:
+    print(f"The answer is {math.ceil(float(input('Enter a decimal: ')))}")
+
+if choice == 11:
+    print(f"The answer is {round(float(input('Enter a decimal: ')))}")
+
+if choice == 12:
+    print(f"The absolute value is {abs(int(input('Enter a number: ')))}")
