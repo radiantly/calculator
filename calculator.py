@@ -13,7 +13,8 @@ print(
     8. Tangent
     9. Floor
     10. Ceiling
-    11. Absolute value
+    11. Round
+    12. Absolute value
 
 Enter your choice:"""
 )
@@ -46,4 +47,5 @@ if choice == 6:
 # 8. Tangent
 # 9. Floor
 # 10. Ceiling
-# 11. Absolute value
+# 11. Round
+# 12. Absolute value
