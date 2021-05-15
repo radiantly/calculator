@@ -46,3 +46,4 @@ Original at [manavpatnaik/c-calculator](https://github.com/manavpatnaik/c-calcul
 - Adithya
 - Keshav CSED
 - Prawin Subrajith S
+- Srinivasa Vinayak
