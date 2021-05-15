@@ -13,6 +13,14 @@ void calcAddition() {
 // Fill the rest of the functionality here!
 // 2. Subtraction
 // 3. Multiplication
+void calcMultiplication()
+{
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int ans = a*b;
+    printf("The product is %d\n", ans);
+}
 // 4. Division
 // 5. Exponentiation
 
@@ -46,6 +54,17 @@ void calcExpo() {
 // 10. Ceiling
 // 11. Round
 // 12. Absolute value
+void AbsoluteValue()
+{
+    printf("\nEnter an integer to find Absolute Value: ");
+    int N;
+    scanf("%d", &N);
+    if (N < 0) {
+        N = (-1) * N;
+    }
+
+    printf("The Absolute Value of the given integer is: %d ", N);
+}
 
 int main() {
     int choice;
@@ -77,6 +96,8 @@ int main() {
             calcExpo();
             break;
         case 3:
+            calcMultiplication();
+            break;
         case 4:
         case 5:
 
@@ -90,7 +111,8 @@ int main() {
         case 9:
         case 10:
         case 11:
-        case 12:
+        case 12:AbsoluteValue();
+                break;
         default:
             printf("Invalid choice!");
     }
