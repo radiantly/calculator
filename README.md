@@ -43,3 +43,6 @@ Original at [manavpatnaik/c-calculator](https://github.com/manavpatnaik/c-calcul
 ### Built by
 
 - Radiantly
+- Adithya
+- Keshav CSED
+- Prawin Subrajith S
