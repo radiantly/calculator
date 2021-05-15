@@ -12,6 +12,13 @@ void calcAddition() {
 
 // Fill the rest of the functionality here!
 // 2. Subtraction
+void calcsubtraction() {
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a - b;
+    printf("The difference is %d\n", result);
+    }
 // 3. Multiplication
 // 4. Division
 // 5. Exponentiation
@@ -64,6 +71,8 @@ int main() {
             break;
 
         case 2:
+            calcsubtraction();
+            break;
         case 3:
         case 4:
         case 5:
