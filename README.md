@@ -47,5 +47,6 @@ Original at [manavpatnaik/c-calculator](https://github.com/manavpatnaik/c-calcul
 - Prawin Subrajith S
 - Radiantly
 - S Akash
+- Gadde Ashok
 - Srinivasa Vinayak
 - Surya Gonuguntla
