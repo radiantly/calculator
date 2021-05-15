@@ -36,8 +36,17 @@ void calcSine() {
 // 10. Ceiling
 // 11. Round
 // 12. Absolute value
+int division ()
+{
+	int a,b,c;
+        	printf("Enter the two numbers Dividend then Divisor");
+        	scanf("%d %d",&a,&b);
+        	c= a/b;
+        	printf("The Quotient is %d",c);
+}
 
 int main() {
+	int a,b,c;
     int choice;
     printf(
         "Welcome to the Cool Calculator program!\n\n"
@@ -66,6 +75,8 @@ int main() {
         case 2:
         case 3:
         case 4:
+        	division ();
+        	break;
         case 5:
 
         // 6. Sine
