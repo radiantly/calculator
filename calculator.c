@@ -29,6 +29,18 @@ void calcSine() {
     printf("The sine value is %f", answer);
 }
 
+//cosine
+void calcos(){
+    printf("\nEnter the angle in degrees:\n");
+    float angle;
+    scanf("%d",&angle);
+    //convert degrees to radian 
+    double radian = angle /  180.0 * 3.14;
+    double answer = sin(radian);
+
+    printf("The sine value is %f",answer);
+}
+
 // Fill the rest of the functionality here!
 // 7. Cosine
 // 8. Tangent
@@ -74,6 +86,8 @@ int main() {
             break;
 
         case 7:
+            calcos();
+            break;
         case 8:
         case 9:
         case 10:
