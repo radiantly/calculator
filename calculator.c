@@ -47,6 +47,7 @@ void calcos(){
     double answer = cos(radian);
 
     printf("The cos value is %f",answer);
+}
    
 void calcExpo() {
     float num,result;
