@@ -36,9 +36,9 @@ void calcos(){
     scanf("%d",&angle);
     //convert degrees to radian 
     double radian = angle /  180.0 * 3.14;
-    double answer = sin(radian);
+    double answer = cos(radian);
 
-    printf("The sine value is %f",answer);
+    printf("The cos value is %f",answer);
 }
 
 // Fill the rest of the functionality here!
