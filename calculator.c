@@ -32,6 +32,17 @@ void calcSine() {
 // Fill the rest of the functionality here!
 // 7. Cosine
 // 8. Tangent
+void calcTangent() { 
+    double tangentValue;
+    double inputValue;
+    //get input from user
+    printf("Please enter the value to calculate tangent value :");
+    scanf("%lf",&inputValue);
+    //calculate the tangent value
+    tangentValue=tan(inputValue);
+    //display the tangent value
+    printf("\ntangent value of %lf is %lf\n",inputValue,tangentValue);
+}
 // 9. Floor
 // 10. Ceiling
 // 11. Round
@@ -75,6 +86,8 @@ int main() {
 
         case 7:
         case 8:
+            calcTangent();
+            break;
         case 9:
         case 10:
         case 11:
