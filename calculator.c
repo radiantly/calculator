@@ -29,6 +29,16 @@ void calcSine() {
     printf("The sine value is %f", answer);
 }
 
+void calcExpo() {
+    float num,result;
+    int exp;
+    printf("Enter the number and its exponent:");
+    scanf("%f,%d",&num,&exp);
+    result=pow(num,exp);
+
+    printf("%f raised to %d power is %f",num,exp,result);
+}
+
 // Fill the rest of the functionality here!
 // 7. Cosine
 // 8. Tangent
@@ -63,7 +73,9 @@ int main() {
             calcAddition();
             break;
 
-        case 2:
+        case 2: 
+            calcExpo();
+            break;
         case 3:
         case 4:
         case 5:
