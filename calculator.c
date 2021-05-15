@@ -12,6 +12,13 @@ void calcAddition() {
 
 // Fill the rest of the functionality here!
 // 2. Subtraction
+void calcsubtraction() {
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a - b;
+    printf("The difference is %d\n", result);
+    }
 // 3. Multiplication
 void calcMultiplication()
 {
@@ -47,6 +54,7 @@ void calcos(){
     double answer = cos(radian);
 
     printf("The cos value is %f",answer);
+}
    
 void calcExpo() {
     float num,result;
@@ -61,10 +69,37 @@ void calcExpo() {
 // Fill the rest of the functionality here!
 // 7. Cosine
 // 8. Tangent
+void calcTangent() { 
+    double tangentValue;
+    double inputValue;
+    //get input from user
+    printf("Please enter the value to calculate tangent value :");
+    scanf("%lf",&inputValue);
+    //calculate the tangent value
+    tangentValue=tan(inputValue);
+    //display the tangent value
+    printf("\ntangent value of %lf is %lf\n",inputValue,tangentValue);
+}
 // 9. Floor
+void calcfloor()
+{
+    float num;
+    printf("\n Enter the number: ");
+    scanf("%f", &num);
+    printf("\n Floor Value: %.1f", floor(num));
+}
 // 10. Ceiling
 // 11. Round
 // 12. Absolute value
+int division ()
+{
+	int a,b,c;
+        	printf("Enter the two numbers Dividend then Divisor");
+        	scanf("%d %d",&a,&b);
+        	c= a/b;
+        	printf("The Quotient is %d",c);
+}
+
 void AbsoluteValue()
 {
     printf("\nEnter an integer to find Absolute Value: ");
@@ -78,6 +113,7 @@ void AbsoluteValue()
 }
 
 int main() {
+	int a,b,c;
     int choice;
     printf(
         "Welcome to the Cool Calculator program!\n\n"
@@ -102,16 +138,18 @@ int main() {
         case 1:
             calcAddition();
             break;
-
-        case 2: 
-            calcExpo();
+        case 2:
+            calcsubtraction();
             break;
         case 3:
             calcMultiplication();
             break;
         case 4:
+        	division();
+        	break;
         case 5:
-
+            calcExpo();
+            break;
         // 6. Sine
         case 6:
             calcSine();
@@ -121,7 +159,11 @@ int main() {
             calcos();
             break;
         case 8:
+            calcTangent();
+            break;
         case 9:
+            calcfloor();
+            break;
         case 10:
         case 11:
         case 12:AbsoluteValue();
