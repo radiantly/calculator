@@ -70,6 +70,13 @@ void calcExpo() {
 // 7. Cosine
 // 8. Tangent
 // 9. Floor
+void calcfloor()
+{
+    float num;
+    printf("\n Enter the number: ");
+    scanf("%f", &num);
+    printf("\n Floor Value: %.1f", floor(num));
+}
 // 10. Ceiling
 // 11. Round
 // 12. Absolute value
@@ -130,6 +137,8 @@ int main() {
             break;
         case 8:
         case 9:
+            calcfloor();
+            break;
         case 10:
         case 11:
         case 12:AbsoluteValue();
