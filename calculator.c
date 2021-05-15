@@ -13,6 +13,14 @@ void calcAddition() {
 // Fill the rest of the functionality here!
 // 2. Subtraction
 // 3. Multiplication
+void calcMultiplication()
+{
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int ans = a*b;
+    printf("The product is %d\n", ans);
+}
 // 4. Division
 // 5. Exponentiation
 
@@ -76,6 +84,8 @@ int main() {
 
         case 2:
         case 3:
+            calcMultiplication();
+            break;
         case 4:
         case 5:
 
