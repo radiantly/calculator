@@ -41,7 +41,7 @@ MIT License.
 Original at [manavpatnaik/c-calculator](https://github.com/manavpatnaik/c-calculator).
 
 ### Built by
-
+SURYA GONUGUNTLA
 - Radiantly
 - Adithya
 - Keshav CSED
