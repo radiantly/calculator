@@ -69,6 +69,17 @@ void calcExpo() {
 // Fill the rest of the functionality here!
 // 7. Cosine
 // 8. Tangent
+void calcTangent() { 
+    double tangentValue;
+    double inputValue;
+    //get input from user
+    printf("Please enter the value to calculate tangent value :");
+    scanf("%lf",&inputValue);
+    //calculate the tangent value
+    tangentValue=tan(inputValue);
+    //display the tangent value
+    printf("\ntangent value of %lf is %lf\n",inputValue,tangentValue);
+}
 // 9. Floor
 void calcfloor()
 {
@@ -136,6 +147,8 @@ int main() {
             calcos();
             break;
         case 8:
+            calcTangent();
+            break;
         case 9:
             calcfloor();
             break;
