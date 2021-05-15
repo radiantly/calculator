@@ -12,7 +12,22 @@ void calcAddition() {
 
 // Fill the rest of the functionality here!
 // 2. Subtraction
+void calcsubtraction() {
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int result = a - b;
+    printf("The difference is %d\n", result);
+    }
 // 3. Multiplication
+void calcMultiplication()
+{
+    printf("\nEnter two numbers: \n");
+    int a, b;
+    scanf("%d%d", &a, &b);
+    int ans = a*b;
+    printf("The product is %d\n", ans);
+}
 // 4. Division
 // 5. Exponentiation
 
@@ -29,10 +44,50 @@ void calcSine() {
     printf("The sine value is %f", answer);
 }
 
+//cosine
+void calcos(){
+    printf("\nEnter the angle in degrees:\n");
+    float angle;
+    scanf("%d",&angle);
+    //convert degrees to radian 
+    double radian = angle /  180.0 * 3.14;
+    double answer = cos(radian);
+
+    printf("The cos value is %f",answer);
+}
+   
+void calcExpo() {
+    float num,result;
+    int exp;
+    printf("Enter the number and its exponent:");
+    scanf("%f,%d",&num,&exp);
+    result=pow(num,exp);
+
+    printf("%f raised to %d power is %f",num,exp,result);
+}
+
 // Fill the rest of the functionality here!
 // 7. Cosine
 // 8. Tangent
+void calcTangent() { 
+    double tangentValue;
+    double inputValue;
+    //get input from user
+    printf("Please enter the value to calculate tangent value :");
+    scanf("%lf",&inputValue);
+    //calculate the tangent value
+    tangentValue=tan(inputValue);
+    //display the tangent value
+    printf("\ntangent value of %lf is %lf\n",inputValue,tangentValue);
+}
 // 9. Floor
+void calcfloor()
+{
+    float num;
+    printf("\n Enter the number: ");
+    scanf("%f", &num);
+    printf("\n Floor Value: %.1f", floor(num));
+}
 // 10. Ceiling
 // 11. Round
 // 12. Absolute value
@@ -43,6 +98,18 @@ int division ()
         	scanf("%d %d",&a,&b);
         	c= a/b;
         	printf("The Quotient is %d",c);
+}
+
+void AbsoluteValue()
+{
+    printf("\nEnter an integer to find Absolute Value: ");
+    int N;
+    scanf("%d", &N);
+    if (N < 0) {
+        N = (-1) * N;
+    }
+
+    printf("The Absolute Value of the given integer is: %d ", N);
 }
 
 int main() {
@@ -71,25 +138,36 @@ int main() {
         case 1:
             calcAddition();
             break;
-
         case 2:
+            calcsubtraction();
+            break;
         case 3:
+            calcMultiplication();
+            break;
         case 4:
-        	division ();
+        	division();
         	break;
         case 5:
-
+            calcExpo();
+            break;
         // 6. Sine
         case 6:
             calcSine();
             break;
 
         case 7:
+            calcos();
+            break;
         case 8:
+            calcTangent();
+            break;
         case 9:
+            calcfloor();
+            break;
         case 10:
         case 11:
-        case 12:
+        case 12:AbsoluteValue();
+                break;
         default:
             printf("Invalid choice!");
     }
