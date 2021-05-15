@@ -44,6 +44,17 @@ void calcSine() {
 // 10. Ceiling
 // 11. Round
 // 12. Absolute value
+void AbsoluteValue()
+{
+    printf("\nEnter an integer to find Absolute Value: ");
+    int N;
+    scanf("%d", &N);
+    if (N < 0) {
+        N = (-1) * N;
+    }
+
+    printf("The Absolute Value of the given integer is: %d ", N);
+}
 
 int main() {
     int choice;
@@ -88,7 +99,8 @@ int main() {
         case 9:
         case 10:
         case 11:
-        case 12:
+        case 12:AbsoluteValue();
+                break;
         default:
             printf("Invalid choice!");
     }
