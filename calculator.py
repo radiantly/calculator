@@ -46,6 +46,12 @@ if choice == 6:
 # 7. Cosine
 # 8. Tangent
 # 9. Floor
+
+if choice == 9:
+    num = float(input("Enter the number: "))
+    num = math.floor(num)
+
+    print("The floor value of the number is {}".format(num))
 # 10. Ceiling
 # 11. Round
 # 12. Absolute value
