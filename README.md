@@ -47,3 +47,11 @@ Original at [manavpatnaik/c-calculator](https://github.com/manavpatnaik/c-calcul
 - Pavish S
 - Prawin Subrajith S
 - Radiantly
+  HEAD
+  =======
+- Dilip
+- S Akash
+- Gadde Ashok
+- Srinivasa Vinayak
+- Surya Gonuguntla
+  upstream/main
