@@ -43,15 +43,14 @@ Original at [manavpatnaik/c-calculator](https://github.com/manavpatnaik/c-calcul
 ### Built by
 
 - Adithya
+- Dilip
+- Gadde Ashok
 - Keshav CSED
 - Pavish S
 - Prawin Subrajith S
 - Radiantly
-  HEAD
-  =======
-- Dilip
 - S Akash
-- Gadde Ashok
 - Srinivasa Vinayak
+- Sriram R
 - Surya Gonuguntla
-  upstream/main
+- Vaidehi
