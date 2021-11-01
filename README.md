@@ -1,7 +1,5 @@
 # Calculator
 
-
-
 A nifty calculator program in C and Python ✨
 
 ### Contributing
@@ -43,15 +41,16 @@ MIT License.
 Original at [manavpatnaik/c-calculator](https://github.com/manavpatnaik/c-calculator).
 
 ### Built by
+
 - Adithya
+- Dilip
+- Gadde Ashok
 - Keshav CSED
 - Pavish S
 - Prawin Subrajith S
 - Radiantly
-- Sriram R
-- Dilip
 - S Akash
-- Gadde Ashok
 - Srinivasa Vinayak
+- Sriram R
 - Surya Gonuguntla
-
+- Vaidehi
